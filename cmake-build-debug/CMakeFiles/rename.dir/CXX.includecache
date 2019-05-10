@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+.././include/cyclelist.h
+string.h
+-
+iostream
+-
+stdlib.h
+-
+list
+-
+
+.././include/joseph.h
+cyclelist.h
+.././include/cyclelist.h
+
+.././include/kmp.h
+iostream
+-
+string.h
+-
+
+/home/xjx/studySpace/Ctest/LinkList/src/cyclelist.cpp
+cyclelist.h
+/home/xjx/studySpace/Ctest/LinkList/src/cyclelist.h
+
+/home/xjx/studySpace/Ctest/LinkList/src/joseph.cpp
+joseph.h
+/home/xjx/studySpace/Ctest/LinkList/src/joseph.h
+
+/home/xjx/studySpace/Ctest/LinkList/src/kmp.cpp
+kmp.h
+/home/xjx/studySpace/Ctest/LinkList/src/kmp.h
+
+/home/xjx/studySpace/Ctest/LinkList/src/main.cpp
+joseph.h
+/home/xjx/studySpace/Ctest/LinkList/src/joseph.h
+kmp.h
+/home/xjx/studySpace/Ctest/LinkList/src/kmp.h
+

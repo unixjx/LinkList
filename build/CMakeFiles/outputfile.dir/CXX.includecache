@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+.././include/joseph.h
+string.h
+-
+iostream
+-
+stdlib.h
+-
+
+/home/xjx/studySpace/Ctest/cmake_test/include/joseph.h
+string.h
+-
+iostream
+-
+stdlib.h
+-
+
+/home/xjx/studySpace/Ctest/cmake_test/main.cpp
+iostream
+-
+include/joseph.h
+/home/xjx/studySpace/Ctest/cmake_test/include/joseph.h
+pthread.h
+-
+
+/home/xjx/studySpace/Ctest/cmake_test/src/joseph.cpp
+joseph.h
+/home/xjx/studySpace/Ctest/cmake_test/src/joseph.h
+

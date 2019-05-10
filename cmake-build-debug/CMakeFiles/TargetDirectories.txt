@@ -1,0 +1,3 @@
+/home/xjx/studySpace/Ctest/LinkList/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/xjx/studySpace/Ctest/LinkList/cmake-build-debug/CMakeFiles/rename.dir
+/home/xjx/studySpace/Ctest/LinkList/cmake-build-debug/CMakeFiles/edit_cache.dir

@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/outputfile.dir/main.cpp.o CMakeFiles/outputfile.dir/src/joseph.cpp.o  -o bin/outputfile -lpthread 

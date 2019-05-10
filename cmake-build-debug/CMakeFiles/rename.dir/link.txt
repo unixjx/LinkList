@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/rename.dir/src/main.cpp.o CMakeFiles/rename.dir/src/joseph.cpp.o CMakeFiles/rename.dir/src/cyclelist.cpp.o CMakeFiles/rename.dir/src/kmp.cpp.o  -o bin/rename -lpthread 
